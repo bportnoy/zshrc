@@ -1,8 +1,6 @@
 #
 # Executes commands at the start of an interactive session.
 #
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
 # Source Prezto.
@@ -26,6 +24,7 @@ mkdir "$1"
 cd "$1"
 }
 alias st="cd ~/store"
+alias sk="cd ~/store/SkillfulCactus/"
 
 ###Git
 alias gpom="git push origin master"
@@ -77,7 +76,7 @@ alias csc="coffee --output compiled --map --watch --compile ./"
 alias serve="python -m SimpleHTTPServer"
 
 ##Databases
-alias mongodb="mongod --dbpath /Users/bradleyportnoy/data/db/"
+alias mongodb="mongod --dbpath ~/data/db/"
 
 ##Cryptography
 alias sha256="shasum -a 256"
